@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3FA72F;
+}
+
+.container {
+    height: fit-content;
+    width: 100%;
+}
+
+.row {
+    height: fit-content;
+    padding: 1rem 10rem;
+}
+
+.logo {
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group1 {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 50%;
+}
+
+.group2 {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+    width: 11%;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3FA72F;
+    color: white;
+    font-weight: 500;
+    height: 3vw;
+    width: 6vw;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 1vw;
+}
+
+.icon {
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.section {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+.section:hover {
+    color: orange;
+    font-weight: 600;
+}
+
+
+.login:hover {
+    background-color: #000000;
+}
+
+.background {
+    display: flex;
+    height: fit-content;
+    margin-top: 4vw;
+}
+
+.divSection1{
+    width: 45%;
+}
+.divSection2{
+    width: 55%;
+    display: flex;
+    align-items: flex-end;   
+    height: 41vw;
+}
+
+.divSection2 img{
+    width: 100%;
+}
+
+.tag {
+    background-color: #ffe8cc;
+    width: 8vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    color: #FF8A00;
+    font-size: 1vw;
+}
+
+.title {
+    margin-top: 1vw;
+    font-size: 5vw;
+line-height: 5vw;
+    width: 17vw;
+margin-bottom: 1vw;
+color: #311F09;
+}
+
+.text {
+    font-size: 1.2vw;
+    width: 30vw;
+    margin-bottom: 2vw;
+    color: #311F09;
+}
+
+.img {
+    right: 0;
+top: 0;
+}
+
+.button, .button1 {
+    height: 4vw;
+    width: 12vw;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-weight: 400;
+    font-size: 1vw
+}
+
+.button {
+    background-color: #FF8A00;
+}
+
+.button1 {
+    background-color: #3FA72F;
+}
+
+.button:hover, .button1:hover {
+    background-color: #000000;
+    transition: all 0.5s;
+}
+
+.div-button {
+    display: flex;
+    gap: 20px;
+}
+
+.welcome-Section {
+    background-color: #ecfaf1;
+    width: 100%;
+    height: 2vw;
+    z-index: 2;
+}
