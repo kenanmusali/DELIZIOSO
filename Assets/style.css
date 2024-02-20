@@ -8,7 +8,8 @@
     font-family: "Bricolage Grotesque", sans-serif;
 }
 
-body, html {
+body,
+html {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -33,7 +34,7 @@ body, html {
 
 .row {
     height: fit-content;
-    padding: 1rem 10rem;
+    padding: 1vw 10vw;
 }
 
 .logo {
@@ -50,16 +51,16 @@ body, html {
 }
 
 .group1 {
-display: flex;
-align-items: center;
-justify-content: space-between;
-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .group2 {
     display: flex;
-align-items: center;
-justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
     width: 11%;
 }
 
@@ -106,17 +107,18 @@ justify-content: space-between;
     margin-top: 4vw;
 }
 
-.divSection1{
+.divSection1 {
     width: 45%;
 }
-.divSection2{
+
+.divSection2 {
     width: 55%;
     display: flex;
-    align-items: flex-end;   
+    align-items: flex-end;
     height: 41vw;
 }
 
-.divSection2 img{
+.divSection2 img {
     width: 100%;
 }
 
@@ -135,10 +137,10 @@ justify-content: space-between;
 .title {
     margin-top: 1vw;
     font-size: 5vw;
-line-height: 5vw;
+    line-height: 5vw;
     width: 17vw;
-margin-bottom: 1vw;
-color: #311F09;
+    margin-bottom: 1vw;
+    color: #311F09;
 }
 
 .text {
@@ -150,10 +152,12 @@ color: #311F09;
 
 .img {
     right: 0;
-top: 0;
+    top: 0;
+    width: 42vw !important;
 }
 
-.button, .button1 {
+.button,
+.button1 {
     height: 4vw;
     width: 12vw;
     border: none;
@@ -171,19 +175,54 @@ top: 0;
     background-color: #3FA72F;
 }
 
-.button:hover, .button1:hover {
+.button:hover,
+.button1:hover {
     background-color: #000000;
     transition: all 0.5s;
 }
 
 .div-button {
     display: flex;
-    gap: 20px;
+    gap: 1.5vw;
 }
 
-.welcome-Section {
+.rowWelcome {
     background-color: #ecfaf1;
     width: 100%;
-    height: 2vw;
-    z-index: 2;
+    height: 36vw;
+}
+
+.img1 {
+    width: 35vw;
+}
+
+.divWelcome {
+    display: flex;
+    gap: 5vw;
+}
+
+.title1 {
+    font-size: 3vw;
+    color: #311F09;
+    width: 25vw;
+}
+
+.text1 {
+    color: #311F09;
+    font-size: 1.2vw;
+    width: 25vw;
+}
+
+.divWelcomeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 34vw;
+}
+
+.divtextwelcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 17vw;
 }

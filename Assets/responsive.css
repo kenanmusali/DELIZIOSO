@@ -1,0 +1,270 @@
+@media screen and (max-width: 767px) {
+    .group1 {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .group2 {
+        width: 20%;
+    }
+
+    .icon {
+        font-size: 5vw;
+        cursor: pointer;
+    }
+
+    .row {
+        height: fit-content;
+        padding: 1vw 10vw;
+    }
+
+    .header {
+        height: fit-content;
+        padding-top: 3vw;
+    }
+
+    .logo {
+        font-size: 8vw;
+        font-weight: 600;
+        font-family: "Sacramento", cursive;
+        cursor: pointer;
+    }
+
+    .background {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tag {
+        width: 20vw;
+        height: 6vw;
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    .title {
+        margin-top: 4vw;
+        font-size: 12vw;
+        line-height: 12vw;
+        width: 17vw;
+        margin-bottom: 4vw;
+    }
+
+    .text {
+        font-size: 5vw;
+        width: 70vw;
+        margin-bottom: 4vw;
+    }
+
+    .button,
+    .button1 {
+        height: 12vw;
+        width: 70vw;
+        padding-inline: 8vw;
+        font-weight: 400;
+        font-size: 4vw;
+        white-space: nowrap;
+    }
+
+    .img {
+        margin-top: 2vw;
+        width: 75vw !important;
+    }
+
+    .divSection2 {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .div-button {
+        gap: 3vw;
+    }
+
+      /*  */
+    
+.rowWelcome {
+    height: 105vw;
+}
+
+.img1 {
+    width: 50vw;
+    margin-top: -16vw;
+}
+
+.divWelcome {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+
+.title1 {
+    font-size: 6vw;
+    width: 40vw;
+    margin-bottom: 2vw;
+}
+
+.text1 {
+    font-size: 3vw;
+    width: 70vw;
+    margin-bottom: 2vw;
+}
+
+.divWelcomeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65vw;
+    order: 1;
+}
+
+.imgDiv {
+    order: 2;
+}
+
+.divtextwelcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 17vw;
+}
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .group1 {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .group2 {
+        width: 13%;
+    }
+
+    .icon {
+        font-size: 3vw;
+        cursor: pointer;
+    }
+
+    .row {
+        height: fit-content;
+        padding: 1vw 10vw;
+    }
+
+    .header {
+        height: fit-content;
+        padding-top: 3vw;
+    }
+
+    .logo {
+        font-size: 5vw;
+        font-weight: 600;
+        font-family: "Sacramento", cursive;
+        cursor: pointer;
+    }
+
+    .background {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tag {
+        width: 20vw;
+        height: 6vw;
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    .title {
+        margin-top: 2vw;
+        font-size: 10vw;
+        line-height: 9vw;
+        width: 17vw;
+        margin-bottom: 2vw;
+    }
+
+    .text {
+        font-size: 3vw;
+        width: 52vw;
+        margin-bottom: 4vw;
+    }
+
+    .button,
+    .button1 {
+        height: 8vw;
+        width: 22vw;
+        font-weight: 400;
+        font-size: 2vw
+    }
+
+    .img {
+        margin-top: 2vw;
+        width: 50vw !important;
+    }
+
+    .divSection2 {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    /*  */
+    
+.rowWelcome {
+    height: 105vw;
+}
+
+.img1 {
+    width: 50vw;
+    margin-top: -16vw;
+}
+
+.divWelcome {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+
+.title1 {
+    font-size: 6vw;
+    width: 40vw;
+    margin-bottom: 2vw;
+}
+
+.text1 {
+    font-size: 3vw;
+    width: 70vw;
+    margin-bottom: 2vw;
+}
+
+.divWelcomeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65vw;
+    order: 1;
+}
+
+.imgDiv {
+    order: 2;
+}
+
+.divtextwelcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 17vw;
+}
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .icon0 {
+        display: none;
+    }
+}
