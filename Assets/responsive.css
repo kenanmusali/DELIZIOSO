@@ -86,12 +86,12 @@
       /*  */
     
 .rowWelcome {
-    height: 105vw;
+    height: 110vw;
 }
 
 .img1 {
     width: 50vw;
-    margin-top: -16vw;
+    margin-top: -10vw;
 }
 
 .divWelcome {
@@ -129,6 +129,104 @@
     flex-direction: column;
     justify-content: space-between;
     height: 17vw;
+}
+
+.button2 {
+    margin-top: 5vw;
+    width: 50vw;
+}
+
+/*  */
+
+.resButton {
+    height: 6vw;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+}
+
+.text3 {
+    font-size: 2vw;
+}
+
+.divMenuProduct {
+    padding: 3vw;
+}
+
+.divOrder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divProduct {
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: 1vw;
+}
+
+.tagSection {
+    width: 80%;
+}
+
+.menuButton {
+    font-size: 2vw;
+    padding: 2vw 3vw;
+}
+
+.title2 {
+    font-size: 6vw;
+    margin-top: 7w;
+    margin-bottom: 4vw;
+}
+
+.title3 {
+    font-size: 3vw;
+}
+
+.text2 {
+    font-size: 2vw;
+    width: 30vw;
+}
+
+.icon1 {
+    height: 3.5vw;
+}
+
+/*  */
+
+.divTable {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10vw;
+}
+
+.img3 {
+    order: 2;
+    height: 70vw;
+    width: fit-content;
+    margin-top: 6vw;
+}
+
+.title4 {
+    font-size: 5vw;
+    margin-bottom: 2vw;
+}
+
+.text4 {
+    font-size: 2.5vw;
+    width: 60vw;
+    margin-bottom: 3vw;
+}
+
+.resButton1 {
+    width: 35vw;
+    font-size: 3vw;
 }
 
 }
@@ -260,6 +358,75 @@
     height: 17vw;
 }
 
+/*  */
+
+.resButton {
+    height: 5vw;
+}
+
+.text3 {
+    font-size: 2vw;
+}
+
+.divMenuProduct {
+    padding: 3vw;
+}
+
+.divOrder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divProduct {
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: 4.5vw;
+}
+
+.tagSection {
+    width: 80%;
+}
+
+.menuButton {
+    font-size: 2vw;
+    padding: 2vw 3vw;
+}
+
+.title2 {
+    font-size: 5vw;
+    margin-top: 7w;
+    margin-bottom: 4vw;
+}
+
+/*  */
+
+.divTable {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10vw;
+}
+
+.img3 {
+    order: 2;
+    height: 60vw;
+    width: fit-content;
+    margin-top: 6vw;
+}
+
+.title4 {
+    font-size: 5vw;
+    margin-bottom: 2vw;
+}
+
+.text4 {
+    font-size: 3vw;
+    width: 60vw;
+    margin-bottom: 3vw;
+}
 
 }
 

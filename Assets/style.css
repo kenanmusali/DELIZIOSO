@@ -226,3 +226,138 @@ html {
     justify-content: space-between;
     height: 17vw;
 }
+
+.divMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tagSection {
+    margin-top: 3vw;
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+    margin-bottom: 6vw;
+}
+
+.menuButton {
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 1vw 2vw;
+    border-radius: 100px;
+}
+
+.menuButton:hover {
+    background-color: #000000;
+    color: white;
+    transition: all 0.5s;
+}
+
+.title2 {
+    font-size: 3.5vw;
+    color: #311F09;
+    margin-top:6vw;
+    font-weight: 800;
+}
+
+.divMenuProduct {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 3vw;
+    width: fit-content;
+    padding: 1.5vw;
+}
+
+.img2 {
+    width: 17vw;
+}
+
+.icon1 {
+    margin-bottom: 1vw;
+}
+
+.title3 {
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+
+.text2 {
+    text-align: center;
+    margin-bottom: 1.5vw;
+    width: 18vw;
+    font-size: 1vw;
+}
+
+.divOrder {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.text3 {
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: #0e6800;
+}
+
+.divProduct {
+    display: flex;
+    gap: 2.5vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: 6vw;
+}
+
+.hover {
+    background-color: #000000;
+    color: white;
+}
+
+.divTable {
+    display: flex;
+    align-items: center;
+    margin-top: 6vw;
+}
+
+.img3 {
+    width: 45vw;
+}
+
+.title4 {
+    font-size: 3vw;
+    margin-bottom: 1vw;
+    color: #311F09;
+}
+
+.text4 {
+    font-size: 1vw;
+    width: 25vw;
+    margin-bottom: 3vw;
+}
+
+.divTableText {
+    margin-left: 6vw;
+}
+
+.divMenuProduct:hover {
+    background-color: #FF8A00;
+    transition: all 0.5s;
+    color: white;
+}
+
+.resButton {
+    border: solid 3px #f1f1f1 ;
+}
+
+.resButton:hover {
+    border: solid 3px #0e6800 ;
+    background-color: #0e6800;
+}
