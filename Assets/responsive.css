@@ -163,19 +163,22 @@
 
 .divProduct {
     display: flex;
+    width: 100% ;
     gap: 3vw;
     flex-wrap: wrap;
     justify-content: center;
-    padding-inline: 1vw;
 }
 
 .tagSection {
-    width: 80%;
+    width: 90%;
+    display: flex;
+    white-space: nowrap;
+    gap: 2vw;
 }
 
 .menuButton {
-    font-size: 2vw;
-    padding: 2vw 3vw;
+    font-size: 3vw;
+    padding: 3vw 3vw;
 }
 
 .title2 {
@@ -185,11 +188,11 @@
 }
 
 .title3 {
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .text2 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     width: 30vw;
 }
 
@@ -213,20 +216,96 @@
     margin-top: 6vw;
 }
 
+.img2 {
+    height: 30vw;
+    width: fit-content;
+}
+
 .title4 {
-    font-size: 5vw;
+    font-size: 6vw;
     margin-bottom: 2vw;
 }
 
 .text4 {
-    font-size: 2.5vw;
+    font-size: 3vw;
     width: 60vw;
     margin-bottom: 3vw;
 }
 
-.resButton1 {
-    width: 35vw;
+.text3 {
     font-size: 3vw;
+}
+
+.resButton1 {
+    width: 40vw;
+    font-size: 3vw;
+}
+
+/*  */
+
+.divChefs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chefs {
+    display: flex;
+    gap: 2vw;
+    margin-top: 5vw;
+    justify-content: center;
+    width: 100%;
+}
+
+.text5 {
+    margin-top: 1vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.text6 {
+    margin-top: 0.5vw;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #0e6800;
+}
+
+.divCheafSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img4 {
+    width: 30vw;
+    height: fit-content;
+}
+
+.resButton2 {
+    margin-top: 4vw;
+}
+
+/*  */
+
+.text7 {
+    margin-top: 2vw;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.text8 {
+    margin-top: 0.5vw;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 6vw;
+} 
+
+.text4 {
+    margin-top: 0.5vw;
+    font-size: 2vw;
+    width: 34vw;
+    font-weight: 500; 
 }
 
 }
@@ -426,6 +505,73 @@
     font-size: 3vw;
     width: 60vw;
     margin-bottom: 3vw;
+}
+
+/*  */
+
+.divChefs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chefs {
+    display: flex;
+    gap: 2vw;
+    margin-top: 5vw;
+    justify-content: center;
+    width: 100%;
+}
+
+.text5 {
+    margin-top: 1vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.text6 {
+    margin-top: 0.5vw;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #0e6800;
+}
+
+.divCheafSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img4 {
+    width: 30vw;
+    height: fit-content;
+}
+
+.resButton2 {
+    margin-top: 4vw;
+}
+
+/*  */
+
+.text7 {
+    margin-top: 2vw;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.text8 {
+    margin-top: 0.5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-bottom: 8vw;
+} 
+
+.text4 {
+    margin-top: 0.5vw;
+    font-size: 2vw;
+    width: 34vw;
+    font-weight: 500; 
 }
 
 }
