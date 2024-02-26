@@ -360,6 +360,10 @@
     font-size: 3vw;
 }
 
+.resText4 {
+    font-size: 2.2vw;
+}
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
