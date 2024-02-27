@@ -79,6 +79,11 @@ html {
     border-radius: 100px;
 }
 
+.section {
+    color: #000000;
+    text-decoration: none;
+}
+
 .icon {
     font-size: 1.3vw;
     cursor: pointer;
@@ -92,7 +97,7 @@ html {
 }
 
 .section:hover {
-    color: orange;
+    color: #FF8A00;
     font-weight: 600;
 }
 
@@ -106,6 +111,7 @@ html {
     height: fit-content;
     margin-top: 4vw;
 }
+
 
 .divSection1 {
     width: 45%;
