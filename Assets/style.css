@@ -412,7 +412,7 @@ html {
 }
 
 .divCostumer {
-    background-image: url(../Assets/Images/Background/Ourcustomerssay.png);
+    background-image: url(./Images/Background/Ourcustomerssay.png);
     background-size: cover;
     width: 100%;
     height: 95vw;
@@ -476,7 +476,7 @@ html {
 /*  */
 
 .divTimeImg {
-    background-image: url(../Assets/Images/Background/Group61.png);
+    background-image: url(./Images/Background/Group61.png);
     background-size: cover;
     width: 100%;
     height: 41vw;
