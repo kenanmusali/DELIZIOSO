@@ -1,241 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon"
-        href="./Images/Background/kisspng-italian-cuisine-pizza-naporitan-spaghetti-alla-put-top-view-spaghetti-bolognese-5add123c2c5952 1.png"
-        type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./responsive.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="./Images/Background/kisspng-italian-cuisine-pizza-naporitan-spaghetti-alla-put-top-view-spaghetti-bolognese-5add123c2c5952 1.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
     <title>Delizioso</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
+        <div class="hamMenu">
+            <input id="toggle" type="checkbox"></input>
+            <label for="toggle" class="hamburger">
+                <i class="fa-solid fa-bars icon icon0" style="color: #311f09"></i>
+            </label>
+            <div class="nav">
+              <div class="nav-wrapper">
+                <nav>
+                  <a class="menu" href="#">Home</a><br>
+                  <a class="menu" href="#">About</a><br>
+                  <a class="menu" href="#">Order online</a><br>
+                  <a class="menu" href="#">Reservation</a><br>
+                  <a class="menu" href="#">Contact us</a><br>
+                  <a class="loginMenu">Log in</a>
+                </nav>
+              </div>
+            </div>
+        </div>
+
+      <div class="row">
+        <div class="header">
+          <a class="logo">Delizioso</a>
+          <div class="group1">
+            <a class="section">Home</a>
+            <a class="section">Menu</a>
+            <a class="section">About us</a>
+            <a class="section">Order online</a>
+            <a class="section">Reservation</a>
+            <a class="section">Contact us</a>
+          </div>
+          <div class="group2">
+            <i
+              class="fa-solid fa-cart-shopping fa-bounce icon"
+              style="color: #311f09; z-index: 0;"
+            ></i>
+            <a class="login">Log in</a>
+            <!-- <i class="fa-solid fa-bars icon icon0" style="color: #c00909"></i> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="background">
+          <div class="divSection1">
+            <p class="tag">Restauran</p>
+            <h1 class="title">Italian Cuisine</h1>
+            <p class="text">
+              Italian cuisine is highly regionalized. Dishes served commonly in
+              one area may not even be known in another.
+            </p>
+            <div class="div-button">
+              <button class="button">Order Now</button>
+              <button class="button1">Reservation</button>
+            </div>
+          </div>
+          <div class="divSection2">
+            <img
+              class="img"
+              src="./Images/Background/kisspng-italian-cuisine-pizza-naporitan-spaghetti-alla-put-top-view-spaghetti-bolognese-5add123c2c5952 1.png"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="rowWelcome">
         <div class="row">
-            <div class="header">
-                <a class="logo">Delizioso</a>
-                <div class="group1">
-                    <a class="section">Home</a>
-                    <a class="section">Menu</a>
-                    <a class="section">About us</a>
-                    <a class="section">Order online</a>
-                    <a class="section">Reservation</a>
-                    <a class="section">Contact us</a>
-                </div>
-                <div class="group2">
-                    <i class="fa-solid fa-cart-shopping fa-bounce icon" style="color: #311F09;"></i>
-                    <a class="login">Log in</a>
-                    <i class="fa-solid fa-bars icon icon0" style="color: #311F09;"></i>
-                </div>
+          <div class="divWelcome">
+            <div class="imgDiv">
+              <img class="img1" src="./Images/Background/Group 33.png" />
             </div>
+            <div class="divWelcomeText">
+              <div class="divtextwelcome">
+                <h1 class="title1">Welcome to Delizioso</h1>
+                <p class="text1">
+                  Italian cuisine is known for its regional diversity, with each
+                  area having its own specialties and traditional dishes. This
+                  regionalization means that some dishes are common in one area
+                  but may not be known in another.
+                </p>
+              </div>
+              <button class="button button2">See our Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divMenu">
+        <h1 class="title2">Our popular menu</h1>
+        <div class="tagSection">
+          <a class="menuButton hover" href="">All catagory</a>
+          <a class="menuButton" href="">Dinner</a>
+          <a class="menuButton" href="">Lunch</a>
+          <a class="menuButton" href="">Dessert</a>
+          <a class="menuButton" href="">Drinks</a>
         </div>
 
-        <div class="row">
-            <div class="background">
-                <div class="divSection1">
-                    <p class="tag">Restauran</p>
-                    <h1 class="title">Italian Cuisine</h1>
-                    <p class="text">Italian cuisine is highly regionalized. Dishes served commonly in one area may not
-                        even be known in another.</p>
-                    <div class="div-button">
-                        <button class="button">Order Now</button>
-                        <button class="button1">Reservation</button>
-                    </div>
-                </div>
-                <div class="divSection2">
-                    <img class="img"
-                        src="./Images/Background/kisspng-italian-cuisine-pizza-naporitan-spaghetti-alla-put-top-view-spaghetti-bolognese-5add123c2c5952 1.png">
-                </div>
-
+        <div class="divProduct">
+          <div class="divMenuProduct">
+            <img class="img2" src="./Images/Menu/Mask Group.png" />
+            <p class="title3">Spaghetti</p>
+            <img class="icon1" src="./Icons/Stars.svg" />
+            <p class="text2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+              consequat elit mi eget auctor adipiscing aliquam, diam.
+            </p>
+            <div class="divOrder">
+              <p class="text3">$12.99</p>
+              <button class="button resButton" type="button">Order now</button>
             </div>
+          </div>
+          <div class="divMenuProduct">
+            <img class="img2" src="./Images/Menu/Mask Group-1.png" />
+            <p class="title3">Gnocchi</p>
+            <img class="icon1" src="./Icons/Stars.svg" />
+            <p class="text2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+              consequat elit mi eget auctor adipiscing aliquam, diam.
+            </p>
+            <div class="divOrder">
+              <p class="text3">$12.99</p>
+              <button class="button resButton" type="button">Order now</button>
+            </div>
+          </div>
+          <div class="divMenuProduct">
+            <img class="img2" src="./Images/Menu/Mask Group-2.png" />
+            <p class="title3">Rovioli</p>
+            <img class="icon1" src="./Icons/Stars.svg" />
+            <p class="text2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+              consequat elit mi eget auctor adipiscing aliquam, diam.
+            </p>
+            <div class="divOrder">
+              <p class="text3">$12.99</p>
+              <button class="button resButton" type="button">Order now</button>
+            </div>
+          </div>
+          <div class="divMenuProduct">
+            <img class="img2" src="./Images/Menu/Mask Group-3.png" />
+            <p class="title3">Penne Alla Vodak</p>
+            <img class="icon1" src="./Icons/Stars.svg" />
+            <p class="text2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+              consequat elit mi eget auctor adipiscing aliquam, diam.
+            </p>
+            <div class="divOrder">
+              <p class="text3">$12.99</p>
+              <button class="button resButton" type="button">Order now</button>
+            </div>
+          </div>
+          <div class="divMenuProduct">
+            <img class="img2" src="./Images/Menu/Mask Group-4.png" />
+            <p class="title3">Risoto</p>
+            <img class="icon1" src="./Icons/Stars.svg" />
+            <p class="text2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+              consequat elit mi eget auctor adipiscing aliquam, diam.
+            </p>
+            <div class="divOrder">
+              <p class="text3">$12.99</p>
+              <button class="button resButton" type="button">Order now</button>
+            </div>
+          </div>
+          <div class="divMenuProduct">
+            <img class="img2" src="./Images/Menu/Mask Group-5.png" />
+            <p class="title3">Splitza Signature</p>
+            <img class="icon1" src="./Icons/Stars.svg" />
+            <p class="text2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+              consequat elit mi eget auctor adipiscing aliquam, diam.
+            </p>
+            <div class="divOrder">
+              <p class="text3">$12.99</p>
+              <button class="button resButton" type="button">Order now</button>
+            </div>
+          </div>
         </div>
+      </div>
 
-
-        <div class="rowWelcome">
-            <div class="row">
-                <div class="divWelcome">
-                    <div class="imgDiv">
-                        <img class="img1" src="./Images/Background/Group 33.png">
-                    </div>
-                    <div class="divWelcomeText">
-                        <div class="divtextwelcome">
-                            <h1 class="title1">Welcome to Delizioso</h1>
-                            <p class="text1">Italian cuisine is known for its regional diversity, with each area having
-                                its own specialties and traditional dishes. This regionalization means that some dishes
-                                are common in one area but may not be known in another.</p>
-                        </div>
-                        <button class="button button2">See our Menu</button>
-                    </div>
-                </div>
-            </div>
+      <div class="divTable">
+        <img class="img3" src="./Images/Background/Picture.png" />
+        <div class="divTableText">
+          <h1 class="title4">Let's reserve a table</h1>
+          <p class="text4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
+            ultricies at eleifend proin. Congue nibh nulla malesuada ultricies
+            nec quam
+          </p>
+          <button class="button resButton1" type="button">Reservation</button>
         </div>
+      </div>
 
-        <div class="divMenu">
-            <h1 class="title2">Our popular menu</h1>
-            <div class="tagSection">
-                <a class="menuButton hover" href="">All catagory</a>
-                <a class="menuButton" href="">Dinner</a>
-                <a class="menuButton" href="">Lunch</a>
-                <a class="menuButton" href="">Dessert</a>
-                <a class="menuButton" href="">Drinks</a>
-            </div>
+      <div class="divChefs">
+        <h1 class="title2">Our greatest chef</h1>
 
-            <div class="divProduct">
-                <div class="divMenuProduct">
-                    <img class="img2" src="./Images/Menu/Mask Group.png">
-                    <p class="title3">Spaghetti</p>
-                    <img class="icon1" src="./Icons/Stars.svg">
-                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat elit mi
-                        eget
-                        auctor adipiscing aliquam, diam. </p>
-                    <div class="divOrder">
-                        <p class="text3">$12.99</p>
-                        <button class="button resButton" type="button">Order now</button>
-                    </div>
-                </div>
-                <div class="divMenuProduct">
-                    <img class="img2" src="./Images/Menu/Mask Group-1.png">
-                    <p class="title3">Gnocchi</p>
-                    <img class="icon1" src="./Icons/Stars.svg">
-                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat elit mi
-                        eget
-                        auctor adipiscing aliquam, diam. </p>
-                    <div class="divOrder">
-                        <p class="text3">$12.99</p>
-                        <button class="button resButton" type="button">Order now</button>
-                    </div>
-                </div>
-                <div class="divMenuProduct">
-                    <img class="img2" src="./Images/Menu/Mask Group-2.png">
-                    <p class="title3">Rovioli</p>
-                    <img class="icon1" src="./Icons/Stars.svg">
-                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat elit mi
-                        eget
-                        auctor adipiscing aliquam, diam. </p>
-                    <div class="divOrder">
-                        <p class="text3">$12.99</p>
-                        <button class="button resButton" type="button">Order now</button>
-                    </div>
-                </div>
-                <div class="divMenuProduct">
-                    <img class="img2" src="./Images/Menu/Mask Group-3.png">
-                    <p class="title3">Penne Alla Vodak</p>
-                    <img class="icon1" src="./Icons/Stars.svg">
-                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat elit mi
-                        eget
-                        auctor adipiscing aliquam, diam. </p>
-                    <div class="divOrder">
-                        <p class="text3">$12.99</p>
-                        <button class="button resButton" type="button">Order now</button>
-                    </div>
-                </div>
-                <div class="divMenuProduct">
-                    <img class="img2" src="./Images/Menu/Mask Group-4.png">
-                    <p class="title3">Risoto</p>
-                    <img class="icon1" src="./Icons/Stars.svg">
-                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat elit mi
-                        eget
-                        auctor adipiscing aliquam, diam. </p>
-                    <div class="divOrder">
-                        <p class="text3">$12.99</p>
-                        <button class="button resButton" type="button">Order now</button>
-                    </div>
-                </div>
-                <div class="divMenuProduct">
-                    <img class="img2" src="./Images/Menu/Mask Group-5.png">
-                    <p class="title3">Splitza Signature</p>
-                    <img class="icon1" src="./Icons/Stars.svg">
-                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat elit mi
-                        eget
-                        auctor adipiscing aliquam, diam. </p>
-                    <div class="divOrder">
-                        <p class="text3">$12.99</p>
-                        <button class="button resButton" type="button">Order now</button>
-                    </div>
-                </div>
-            </div>
+        <div class="chefs">
+          <div class="divCheafSection">
+            <img class="img4" src="./Images/Chefs/Group 9.png" />
+            <p class="text5">Betran Komar</p>
+            <p class="text6">Head Chef</p>
+          </div>
+          <div class="divCheafSection">
+            <img class="img4" src="./Images/Chefs/Group 8.png" />
+            <p class="text5">Ferry Sauwi</p>
+            <p class="text6">Chef</p>
+          </div>
+          <div class="divCheafSection">
+            <img class="img4" src="./Images/Chefs/Group 10.png" />
+            <p class="text5">Iswan Dracho</p>
+            <p class="text6">Chef</p>
+          </div>
         </div>
+        <button class="button resButton2" type="button">View all</button>
+      </div>
 
-        <div class="divTable">
-            <img class="img3" src="./Images/Background/Picture.png">
-            <div class="divTableText">
-                <h1 class="title4">Let's reserve a table</h1>
-                <p class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at
-                    eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
-                <button class="button resButton1" type="button">Reservation</button>
+      <div class="divCostumerSays">
+        <div class="divCostumer">
+          <div class="costumerText">
+            <h1 class="title2">Our customers say</h1>
+            <div class="divUser">
+              <div class="firstdiv">
+                <h6 class="text7">Starla Virgoun</h6>
+                <p class="text8">Financial advisor</p>
+              </div>
+              <div class="seconddiv">
+                <p class="text4 resText4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Facilisis ultricies at eleifend proin. Congue nibh nulla
+                  malesuada ultricies nec quam
+                </p>
+              </div>
             </div>
-
+          </div>
         </div>
+      </div>
 
-        <div class="divChefs">
-            <h1 class="title2">Our greatest chef</h1>
-
-            <div class="chefs">
-                <div class="divCheafSection">
-                    <img class="img4" src="./Images/Chefs/Group 9.png">
-                    <p class="text5">Betran Komar</p>
-                    <p class="text6">Head Chef</p>
-                </div>
-                <div class="divCheafSection">
-                    <img class="img4" src="./Images/Chefs/Group 8.png">
-                    <p class="text5">Ferry Sauwi</p>
-                    <p class="text6">Chef</p>
-                </div>
-                <div class="divCheafSection">
-                    <img class="img4" src="./Images/Chefs/Group 10.png">
-                    <p class="text5">Iswan Dracho</p>
-                    <p class="text6">Chef</p>
-                </div>
+      <div class="divTime">
+        <div class="divTimeImg">
+          <div class="divTimeText">
+            <h1 class="title2 title5">We are open from</h1>
+            <h6 class="title6">Monday - Sunday</h6>
+            <div class="divTextFlex">
+              <p class="text9">Launch: Mon-Sun: 11:00 AM - 02:00 PM</p>
             </div>
-            <button class="button resButton2" type="button">View all</button>
-        </div>
-
-        <div class="divCostumerSays">
-            <div class="divCostumer">
-                <div class="costumerText">
-                    <h1 class="title2">Our customers say</h1>
-                    <div class="divUser">
-                        <div class="firstdiv">
-                            <h6 class="text7">Starla Virgoun</h6>
-                            <p class="text8">Financial advisor</p>
-                        </div>
-                        <div class="seconddiv">
-                            <p class="text4 resText4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at
-                                eleifend proin. Congue nibh nulla malesuada ultricies nec quam
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="divTextFlex">
+              <p class="text9">Dinner: Sunday: 04:00 PM - 08:00 AM</p>
             </div>
-        </div>
-
-        <div class="divTime">
-            <div class="divTimeImg">
-                <div class="divTimeText">
-                    <h1 class="title2 title5">We are open from</h1>
-                    <h6 class="title6">Monday - Sunday</h6>
-                    <div class="divTextFlex">
-                        <p class="text9">Launch: Mon-Sun: 11:00 AM - 02:00 PM</p>
-                    </div>
-                    <div class="divTextFlex">
-                        <p class="text9">Dinner: Sunday: 04:00 PM - 08:00 AM</p>
-                    </div>
-                    <div class="divTextFlex">
-                        <p class="text9">04:00 PM - 09:00 PM</p>
-                    </div>
-                    <button class="button resButton3" type="button">Order now</button>
-                    <button class="button1 resButton3" type="button">Reservation</button>
-                </div>
+            <div class="divTextFlex">
+              <p class="text9">04:00 PM - 09:00 PM</p>
             </div>
+            <button class="button resButton3" type="button">Order now</button>
+            <button class="button1 resButton3" type="button">
+              Reservation
+            </button>
+          </div>
         </div>
+      </div>
+
+      <!--  -->
+      <div class="divFooter">
+        <div class="footerSection">
+          <a class="logo footer1">Delizioso</a>
+          <p class="text10">
+            Viverra gravida morbi egestas facilisis tortor netus non duis
+            tempor.
+          </p>
+          <div class="divSocial">
+            <i
+              class="fa-brands fa-square-x-twitter icon2"
+              style="color: #ffffff"
+            ></i>
+            <i
+              class="fa-brands fa-square-instagram icon2"
+              style="color: #ffffff"
+            ></i>
+            <i
+              class="fa-brands fa-square-facebook icon2"
+              style="color: #ffffff"
+            ></i>
+          </div>
+        </div>
+        <div class="footerSection">
+          <p class="section section1 section2">Page</p>
+          <a class="section section1">Home</a>
+          <a class="section section1">Menu</a>
+          <a class="section section1">Order online</a>
+          <a class="section section1">Catering</a>
+          <a class="section section1">Reservation</a>
+        </div>
+        <div class="footerSection">
+          <p class="section section1 section2">Information</p>
+          <a class="section section1">About us</a>
+          <a class="section section1">Testimonial</a>
+          <a class="section section1">Event</a>
+        </div>
+        <div class="footerSection">
+          <p class="section section1 section2">Get in touch</p>
+          <a class="section section1"
+            >3247 Johnson Ave, Bronx, NY 10463, Amerika Serikat</a
+          >
+          <a class="section section1">info@delizioso.com</a>
+          <a class="section section1">+1 234 567 901</a>
+        </div>
+      </div>
+      <img class="footer2" src="./Images/Background/Group 34.svg" />
     </div>
-</body>
-
+  </body>
 </html>

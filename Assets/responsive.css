@@ -336,7 +336,7 @@
 
 .text9 {
     color: white;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 .title6 {
@@ -364,6 +364,139 @@
     font-size: 2.2vw;
 }
 
+/*  */
+
+.divFooter {
+    background-color: #311F09;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150vw;
+justify-content: center;
+align-items: center;
+    padding: 4vw;
+    gap: 4.5vw;
+}
+
+.footer1 {
+    color: white;
+    font-weight: 400;
+    font-size: 6vw;
+}
+
+.text10 {
+    color: white;
+    font-weight: 300;
+    font-size: 3vw;
+    width: 55vw;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 100%;
+    height: 100%;
+}
+
+.icon2 {
+font-size: 5vw;
+}
+
+.divSocial {
+    display: flex;
+gap: 2vw;
+    width: fit-content;
+}
+
+.section1 {
+    color: white;
+    font-weight: 300;
+    font-size: 4vw;
+}
+
+.section2 {
+    color: #FF8A00;
+    font-size: 3.2vw;
+    font-weight: 500;
+}
+
+/*  */
+
+.hamburger {
+    position: absolute;
+    top: 7vw;
+    right: 10.5vw;
+    width: fit-content;
+    z-index: 5;
+  }
+  
+  .hamburger div {
+    position: relative;
+    width: 3vw;
+    height: 0.1vw;
+    border-radius: 3px;
+    background-color: #311F09;
+    margin-top: 1vw;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav {
+    position: fixed;
+    width: 100%;
+    height: 100vw;
+    background-color: #ffffff;
+    border-bottom: 3px solid rgb(162, 161, 161);
+    top: -100%; left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+  }
+
+  nav {
+    text-align: left;
+    margin-left: 25%;
+  }
+  nav a {
+    position: relative;
+    text-decoration: none;
+    font-size: 6vw;
+    display: inline-block;
+    margin-top: 4vw;
+    transition: color 0.2s ease-in-out;
+  }
+
+  .menu {
+    font-size: 9vw;
+    color: #000000;
+    font-weight: 600;
+}
+
+  .loginMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3FA72F;
+    color: white;
+    font-weight: 500;
+    height: 12vw;
+    width: 40vw;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 100px;
+    white-space: nowrap;
+}
+
+.loginMenu:hover {
+    background-color: #000000;
+}
+
+.menu:hover {
+    font-size: 4vw;
+    color: #FF8A00;
+    text-decoration: underline #FF8A00;
+    font-weight: 600;
+}
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
@@ -676,10 +809,72 @@
     height: 5vw;
 }
 
+/*  */
+
+.divFooter {
+    background-color: #311F09;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120vw;
+justify-content: center;
+align-items: center;
+    padding: 4vw;
+    gap: 4.5vw;
+}
+
+.footer1 {
+    color: white;
+    font-weight: 400;
+    font-size: 6vw;
+}
+
+.text10 {
+    color: white;
+    font-weight: 300;
+    font-size: 3vw;
+    width: 55vw;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 100%;
+    height: 100%;
+}
+
+.icon2 {
+font-size: 5vw;
+}
+
+.divSocial {
+    display: flex;
+gap: 2vw;
+    width: fit-content;
+}
+
+.section1 {
+    color: white;
+    font-weight: 300;
+    font-size: 3vw;
+}
+
+.section2 {
+    color: #FF8A00;
+    font-size: 3.2vw;
+    font-weight: 500;
+}
+
 }
 
 @media screen and (min-width: 1024px) {
     .icon0 {
         display: none;
     }
+
+    .hamMenu {
+        display: none;
+    }
 }
+
