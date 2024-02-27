@@ -8,4 +8,72 @@
     .text4 {
         width: 60vw !important;
     }
+
+
+    .input {
+        width: 100%;
+        font-size: 1vw;
+    }
+
+    .signUp {
+        color: white !important;
+    }
+
+    .logo {
+        color: white;
+        font-weight: 400 !important;
+    }
+
+    .text11, .text12 {
+        color: white;
+    }
+
+    .icon3 {
+        width: 1.5rem;
+    }
+
+    .button3 {
+        gap: 3vw;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+
+    .text4 {
+        width: 60vw !important;
+    }
+
+
+    .input {
+        width: 60%;
+        font-size: 1vw;
+    }
+
+    .signUp {
+        color: white !important;
+    }
+
+    .logo {
+        color: white;
+        font-weight: 400 !important;
+    }
+
+    .text11, .text12 {
+        color: white;
+    }
+
+    .icon3 {
+        width: 1.5rem;
+    }
+
+    .button {
+        width: 50% !important;
+    }
+
+    .button3 {
+        gap: 2vw;
+        width: 50% !important;
+    }
+    
+
 }
