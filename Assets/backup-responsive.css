@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    .divTable {
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .text4 {
+        width: 60vw !important;
+    }
+}

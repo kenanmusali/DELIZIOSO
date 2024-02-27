@@ -1,0 +1,30 @@
+.divFooter {
+    margin-top: 8vw;
+}
+
+.img3-1 {
+    width: 20vw;
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+}
+
+
+
+
+.tables {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gap {
+    gap: 3vw;
+}
+
+.title4-0 {
+    font-size: 2vw;
+}
