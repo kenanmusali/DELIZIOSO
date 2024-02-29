@@ -31,7 +31,7 @@
 
 
 .loginBackground {
-   position: absolute;
+    position: absolute;
     background-size: cover;
     height: 100%;
     z-index: -1;
@@ -40,14 +40,15 @@
 }
 
 .input {
-    border: 0.15vw solid;
-    border-style: dotted;
+border: none;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
     height: 3rem;
     width: 40%;
     font-size: 1vw;
 }
 
-.button {
+.button3-0 {
     width: 20%;
 }
 
@@ -67,4 +68,72 @@
 
 .button3:hover {
     color: white;
+}
+
+.input0 {
+width: 20vw;
+}
+
+.divContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.contactBar {
+    display: flex;
+    width: 100%;
+    gap: 1vw;
+}
+
+
+
+.input1{
+    resize: none;
+    width: 100%;
+    height: 20vw;
+    padding: 1vw;
+}
+
+.input1:focus,
+.input0:focus{
+    outline:none;
+}
+
+.footer0 {
+    margin: 0;
+}
+
+.divSectionProductBar {
+    display: flex;
+}
+
+.divProduct0 {
+    height: 100%;
+    padding: 1.5vw;
+    border-radius: 3vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    width: 26vw;
+    height: 75.5vw;
+
+    margin-left: 1vw;
+}
+
+.resSize {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.divMenu1 {
+    padding-inline: 4vw;
+}
+
+.resButton1 {
+    width: 100%;
+    background-color: #633f8f;
 }

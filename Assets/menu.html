@@ -1,82 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="shortcut icon"
-      href="./Images/Background/kisspng-italian-cuisine-pizza-naporitan-spaghetti-alla-put-top-view-spaghetti-bolognese-5add123c2c5952 1.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./aboutus.html" />
-    <link rel="stylesheet" href="./responsive.css" />
-    <title>Delizioso</title>
-  </head>
 
-  <body>
-    <div class="container">
-        <div class="hamMenu">
-            <input id="toggle" type="checkbox"></input>
-            <label for="toggle" class="hamburger">
-                <i class="fa-solid fa-bars icon icon0" style="color: #311f09"></i>
-            </label>
-            <div class="nav">
-              <div class="nav-wrapper">
-                <nav>
-                  <a class="menu" href="#">Home</a><br>
-                  <a class="menu" href="#">About</a><br>
-                  <a class="menu" href="#">Order online</a><br>
-                  <a class="menu" href="#">Reservation</a><br>
-                  <a class="menu" href="#">Contact us</a><br>
-                  <a href="./login.html" class="loginMenu">Log in</a>
-                </nav>
-              </div>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon"
+    href="./Images/Background/kisspng-italian-cuisine-pizza-naporitan-spaghetti-alla-put-top-view-spaghetti-bolognese-5add123c2c5952 1.png"
+    type="image/x-icon" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./backup.css" />
+  <link rel="stylesheet" href="./responsive.css" />
+  <title>Delizioso</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="hamMenu">
+      <input id="toggle" type="checkbox"></input>
+      <label for="toggle" class="hamburger">
+        <i class="fa-solid fa-bars icon icon0" style="color: #311f09"></i>
+      </label>
+      <div class="nav">
+        <div class="nav-wrapper">
+          <nav>
+            <a class="menu" href="#">Home</a><br>
+            <a class="menu" href="#">About</a><br>
+            <a class="menu" href="#">Order online</a><br>
+            <a class="menu" href="#">Reservation</a><br>
+            <a class="menu" href="#">Contact us</a><br>
+            <a href="./login.html" class="loginMenu">Log in</a>
+          </nav>
         </div>
+      </div>
+    </div>
 
-      <div class="row">
-        <div class="header">
-          <a class="logo">Delizioso</a>
-          <div class="group1">
-            <a href="./index.html" class="section">Home</a>
-            <a class="section" style="color: #FF8A00; font-weight: 600;">Menu</a>
-            <a class="section">About us</a>
-            <a class="section">Order online</a>
-            <a class="section">Reservation</a>
-            <a class="section">Contact us</a>
+    <div class="row">
+      <div class="header">
+        <a class="logo">Delizioso</a>
+        <div class="group1">
+          <a href="./index.html" class="section">Home</a>
+          <a class="section" style="color: #FF8A00; font-weight: 600;">Menu</a>
+          <a href="./aboutus.html" class="section">About us</a>
+          <a class="section">Order online</a>
+          <a class="section">Reservation</a>
+          <a class="section">Contact us</a>
+        </div>
+        <div class="group2">
+          <i class="fa-solid fa-cart-shopping fa-bounce icon" style="color: #311f09; z-index: 0;"></i>
+          <a href="./login.html" class="login">Log in</a>
+          <!-- <i class="fa-solid fa-bars icon icon0" style="color: #c00909"></i> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="divMenu">
+      <h1 class="title2">Menu</h1>
+      <div class="tagSection">
+        <a class="menuButton hover" href="">All Catagory</a>
+        <a class="menuButton" href="">Dinner</a>
+        <a class="menuButton" href="">Lunch</a>
+        <a class="menuButton" href="">Dessert</a>
+        <a class="menuButton" href="">Drinks</a>
+      </div>
+    </div>
+
+
+    <div class="divMenu" id="AllCatagory" style="display: none;">
+      <div class="divProduct">
+        <div class="divMenuProduct">
+          <img class="img2" src="./Images/Menu/Mask Group.png" />
+          <p class="title3">Spaghetti</p>
+          <img class="icon1" src="./Icons/Stars.svg" />
+          <p class="text2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+            consequat elit mi eget auctor adipiscing aliquam, diam.
+          </p>
+          <div class="divOrder">
+            <p class="text3">$12.99</p>
+            <button class="button resButton" type="button">Order now</button>
           </div>
-          <div class="group2">
-            <i
-              class="fa-solid fa-cart-shopping fa-bounce icon"
-              style="color: #311f09; z-index: 0;"
-            ></i>
-            <a href="./login.html" class="login">Log in</a>
-            <!-- <i class="fa-solid fa-bars icon icon0" style="color: #c00909"></i> -->
+        </div>
+        <div class="divMenuProduct">
+          <img class="img2" src="./Images/Menu/Mask Group-1.png" />
+          <p class="title3">Gnocchi</p>
+          <img class="icon1" src="./Icons/Stars.svg" />
+          <p class="text2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+            consequat elit mi eget auctor adipiscing aliquam, diam.
+          </p>
+          <div class="divOrder">
+            <p class="text3">$12.99</p>
+            <button class="button resButton" type="button">Order now</button>
+          </div>
+        </div>
+        <div class="divMenuProduct">
+          <img class="img2" src="./Images/Menu/Mask Group-2.png" />
+          <p class="title3">Rovioli</p>
+          <img class="icon1" src="./Icons/Stars.svg" />
+          <p class="text2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+            consequat elit mi eget auctor adipiscing aliquam, diam.
+          </p>
+          <div class="divOrder">
+            <p class="text3">$12.99</p>
+            <button class="button resButton" type="button">Order now</button>
+          </div>
+        </div>
+        <div class="divMenuProduct">
+          <img class="img2" src="./Images/Menu/Mask Group-3.png" />
+          <p class="title3">Penne Alla Vodak</p>
+          <img class="icon1" src="./Icons/Stars.svg" />
+          <p class="text2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+            consequat elit mi eget auctor adipiscing aliquam, diam.
+          </p>
+          <div class="divOrder">
+            <p class="text3">$12.99</p>
+            <button class="button resButton" type="button">Order now</button>
+          </div>
+        </div>
+        <div class="divMenuProduct">
+          <img class="img2" src="./Images/Menu/Mask Group-4.png" />
+          <p class="title3">Risoto</p>
+          <img class="icon1" src="./Icons/Stars.svg" />
+          <p class="text2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+            consequat elit mi eget auctor adipiscing aliquam, diam.
+          </p>
+          <div class="divOrder">
+            <p class="text3">$12.99</p>
+            <button class="button resButton" type="button">Order now</button>
+          </div>
+        </div>
+        <div class="divMenuProduct">
+          <img class="img2" src="./Images/Menu/Mask Group-5.png" />
+          <p class="title3">Splitza Signature</p>
+          <img class="icon1" src="./Icons/Stars.svg" />
+          <p class="text2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+            consequat elit mi eget auctor adipiscing aliquam, diam.
+          </p>
+          <div class="divOrder">
+            <p class="text3">$12.99</p>
+            <button class="button resButton" type="button">Order now</button>
           </div>
         </div>
       </div>
+    </div>
 
+    <br>
 
-      <div class="divMenu">
-        <h1 class="title2">Menu</h1>
-        <div class="tagSection">
-          <a class="menuButton hover" href="">All Catagory</a>
-          <a class="menuButton" href="">Dinner</a>
-          <a class="menuButton" href="">Lunch</a>
-          <a class="menuButton" href="">Dessert</a>
-          <a class="menuButton" href="">Drinks</a>
-        </div>
-
-        <div class="divProduct">
-          <div class="divMenuProduct">
+    <div class="divMenu divMenu1" id="Dinner">
+      <div class="divSectionProductBar">
+        <div class="divProduct resSize cards">
+          <!-- Product Card -->
+          <div class="divMenuProduct card">
             <img class="img2" src="./Images/Menu/Mask Group.png" />
             <p class="title3">Spaghetti</p>
             <img class="icon1" src="./Icons/Stars.svg" />
@@ -86,9 +167,10 @@
             </p>
             <div class="divOrder">
               <p class="text3">$12.99</p>
-              <button class="button resButton" type="button">Order now</button>
+              <button class="button resButton" data-id="1" type="button">Order now</button>
             </div>
           </div>
+          <!-- Product Card -->
           <div class="divMenuProduct">
             <img class="img2" src="./Images/Menu/Mask Group-1.png" />
             <p class="title3">Gnocchi</p>
@@ -155,57 +237,68 @@
             </div>
           </div>
         </div>
-      </div>
+        <!-- Check Out -->
+        <div class="divProduct0 cart">
+          <button class="button resButton1" type="button">Order Now</button>
+          <br>
+          <div class="divOrders" id="minicart">
+            <!--  -->
+            <table id="lista-carrito" class="u-full-width">
+              <thead>
 
-     
+              </thead>
+              <tbody></tbody>
+            </table>
 
-      <!--  -->
-      <div class="divFooter">
-        <div class="footerSection">
-          <a class="logo footer1">Delizioso</a>
-          <p class="text10">
-            Viverra gravida morbi egestas facilisis tortor netus non duis
-            tempor.
-          </p>
-          <div class="divSocial">
-            <i
-              class="fa-brands fa-square-x-twitter icon2"
-              style="color: #ffffff"
-            ></i>
-            <i
-              class="fa-brands fa-square-instagram icon2"
-              style="color: #ffffff"
-            ></i>
-            <i
-              class="fa-brands fa-square-facebook icon2"
-              style="color: #ffffff"
-            ></i>
+            <a href="#" id="vaciar-carrito" class="button u-full-width">
+              Clean Cart <i class="far fa-trash-alt"></i>
+          </a>
+          <!--  -->
           </div>
         </div>
-        <div class="footerSection">
-          <p class="section section1 section2">Page</p>
-          <a class="section section1">Home</a>
-          <a class="section section1">Menu</a>
-          <a class="section section1">Order online</a>
-          <a class="section section1">Catering</a>
-          <a class="section section1">Reservation</a>
-        </div>
-        <div class="footerSection">
-          <p class="section section1 section2">Information</p>
-          <a class="section section1">About us</a>
-          <a class="section section1">Testimonial</a>
-          <a class="section section1">Event</a>
-        </div>
-        <div class="footerSection">
-          <p class="section section1 section2">Get in touch</p>
-          <a class="section section1"
-            >3247 Johnson Ave, Bronx, NY 10463, Amerika Serikat</a
-          >
-          <a class="section section1">info@delizioso.com</a>
-          <a class="section section1">+1 234 567 901</a>
+      </div>
+    </div>
+
+
+
+    <!--  -->
+    <div class="divFooter">
+      <div class="footerSection">
+        <a class="logo footer1">Delizioso</a>
+        <p class="text10">
+          Viverra gravida morbi egestas facilisis tortor netus non duis
+          tempor.
+        </p>
+        <div class="divSocial">
+          <i class="fa-brands fa-square-x-twitter icon2" style="color: #ffffff"></i>
+          <i class="fa-brands fa-square-instagram icon2" style="color: #ffffff"></i>
+          <i class="fa-brands fa-square-facebook icon2" style="color: #ffffff"></i>
         </div>
       </div>
-      <img class="footer2" src="./Images/Background/Group 34.svg" />
+      <div class="footerSection">
+        <p class="section section1 section2">Page</p>
+        <a class="section section1">Home</a>
+        <a class="section section1">Menu</a>
+        <a class="section section1">Order online</a>
+        <a class="section section1">Catering</a>
+        <a class="section section1">Reservation</a>
+      </div>
+      <div class="footerSection">
+        <p class="section section1 section2">Information</p>
+        <a class="section section1">About us</a>
+        <a class="section section1">Testimonial</a>
+        <a class="section section1">Event</a>
+      </div>
+      <div class="footerSection">
+        <p class="section section1 section2">Get in touch</p>
+        <a class="section section1">3247 Johnson Ave, Bronx, NY 10463, Amerika Serikat</a>
+        <a class="section section1">info@delizioso.com</a>
+        <a class="section section1">+1 234 567 901</a>
+      </div>
     </div>
-  </body>
+    <img class="footer2" src="./Images/Background/Group 34.svg" />
+  </div>
+  <script src="./main.js"></script>
+</body>
+
 </html>
