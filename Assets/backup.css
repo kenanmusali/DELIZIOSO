@@ -137,3 +137,8 @@ width: 20vw;
     width: 100%;
     background-color: #633f8f;
 }
+
+.delButton {
+    width: 100%;
+    height: 4vw;
+}
