@@ -10,12 +10,6 @@ Our menu features a variety of classic Italian dishes, including pasta, pizza, s
 
 You can find us at [123 Main Street, Anytown, USA]. We're conveniently located in the heart of town, making us the perfect spot for a casual dinner or a special celebration.
 
-## Contact Us
-
-- **Phone:** (555) 555-5555
-- **Email:** info@deliziosocuisine.com
-- **Website:** [www.deliziosocuisine.com](https://www.deliziosocuisine.com)
-
 ## Opening Hours
 
 - Monday-Saturday: 11:00 AM - 9:00 PM
